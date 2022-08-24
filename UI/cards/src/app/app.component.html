@@ -1,0 +1,61 @@
+<div class="row" style="padding:50px ;">
+  <div class="col-md-4">
+    <form #form="ngForm" (ngSubmit)="onSubmit()">
+      <div class="container">
+        <h1>Card Info Entry</h1>
+        <div class="form-group"> 
+          <label for="" class="form-label">Card Holder Name</label>
+          <input type="text" class="form-control" name="cardHolderName" [(ngModel)]="card.cardHolderName">
+        </div>
+        <div class="form-group"> 
+          <label for="" class="form-label">Card Number</label>
+          <input type="text" class="form-control" name="cardNumber" [(ngModel)]="card.cardNumber">
+        </div>
+        <div class="form-group"> 
+          <label for="" class="form-label">Expire Month</label>
+          <input type="text" class="form-control" name="expireMonth" [(ngModel)]="card.expireMonth">
+        </div>
+        <div class="form-group"> 
+          <label for="" class="form-label">Expire Year</label>
+          <input type="text" class="form-control" name="expireYear" [(ngModel)]="card.expireYear">
+        </div>
+        <div class="form-group"> 
+          <label for="" class="form-label">CVC</label>
+          <input type="text" class="form-control" name="cVC" [(ngModel)]="card.cvc">
+        </div>
+        <div class="form-group">
+          <button style="margin-top: 10px;" class="btn btn-success">Save</button>          
+        </div>
+    </div>
+    </form>
+  </div>
+  <div class="col-md-8">
+    <h1 style="text-align: center;">Detail Info</h1>
+    <div class="container text-center" >
+      <div class="row">        
+        <table class="table">
+          <thead>
+            <tr>
+              <th scope="col"><span>Card Holder Name</span></th>
+              <th scope="col"><span>Card Number</span></th>
+              <th scope="col"> <span>Expire Month</span></th>
+              <th scope="col"><span>ExpireYear</span></th>
+              <th scope="col"><span>CVC</span></th>
+              <th scope="col"><span>Action</span></th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr *ngFor="let card of cards">
+              <th scope="col"><span>{{card.cardHolderName}}</span></th>
+              <th scope="col"><span>{{card.cardNumber}}</span></th>
+              <th scope="col"> <span>{{card.expireMonth}}</span></th>
+              <th scope="col"><span>{{card.expireYear}}</span></th>
+              <th scope="col"><span>{{card.cvc}}</span></th>
+              <th scope="col"><button (click)="selectCard(card)"  class="btn btn-primary">Select</button><button (click)="deleteCard(card.id)"  class="btn btn-danger">Delete</button></th>
+            </tr>        
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</div>

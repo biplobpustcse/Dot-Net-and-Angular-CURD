@@ -1,0 +1,10 @@
+--------C#-----------
+add-migration
+update -database
+----------angular-------
+ng new projetName
+navigate to this project---- cd .projectName
+ng serve --o
+--Install Bootstrap
+https://www.freecodecamp.org/news/how-to-add-bootstrap-css-framework-to-an-angular-application/
+
