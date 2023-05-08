@@ -59,3 +59,4 @@ I:\Practice Project\ASP.NET Core app with Angular\API\Cards\CardsAPI\bin\Debug\n
 I:\Practice Project\ASP.NET Core app with Angular\API\Cards\CardsAPI\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
 I:\Practice Project\ASP.NET Core app with Angular\API\Cards\CardsAPI\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
 I:\Practice Project\ASP.NET Core app with Angular\API\Cards\CardsAPI\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+I:\Practice Project\ASP.NET Core app with Angular\API\Cards\CardsAPI\bin\Debug\net6.0\CardsAPI.staticwebassets.runtime.json

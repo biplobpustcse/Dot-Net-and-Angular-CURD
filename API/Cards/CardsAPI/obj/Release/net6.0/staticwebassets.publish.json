@@ -1,0 +1,19 @@
+{
+  "Version": 1,
+  "Hash": "fGtBVFP9dQMiqoycEDOqpy4o/O59wuhZDuC2DMQftZY=",
+  "Source": "CardsAPI",
+  "BasePath": "_content/CardsAPI",
+  "Mode": "Default",
+  "ManifestType": "Publish",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "CardsAPI\\wwwroot",
+      "Source": "CardsAPI",
+      "ContentRoot": "I:\\Practice Project\\ASP.NET Core app with Angular\\API\\Cards\\CardsAPI\\wwwroot\\",
+      "BasePath": "_content/CardsAPI",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": []
+}
